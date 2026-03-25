@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Study Buddy</title>
+</head>
+<body>
+
+<h1>📚 Smart Study Buddy</h1>
+
+<input type="text" id="goal" placeholder="Enter your study goal">
+<button onclick="setGoal()">Set Goal</button>
+
+<p id="displayGoal"></p>
+
+<button onclick="increaseStreak()">Study Today ✅</button>
+<p id="streak">Streak: 0</p>
+
+<script src="script.js"></script>
+
+<h2>Flashcards</h2>
+
+<input type="text" id="question" placeholder="Question">
+<input type="text" id="answer" placeholder="Answer">
+<button onclick="addFlashcard()">Add</button>
+
+<ul id="flashcards"></ul>
+</body>
+
+</html>
